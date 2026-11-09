@@ -125,3 +125,4 @@ INSERT INTO payments (order_id, amount, status) VALUES (2, 299.99, 'pending');
 INSERT INTO payments (order_id, amount, status) VALUES (2, 299.99, 'completed');
 ```
 Fails with: `ERROR: duplicate key value violates unique constraint "unique_order_payment"`
+ 
